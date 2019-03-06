@@ -1,0 +1,12 @@
+{
+  "neo4j_host": "bolt://192.168.99.100:7687",
+  "mongodb_host": "mongodb://192.168.99.100:27017",
+  "influencers_db": "TwitterUsers",
+  "influencers_collection": "influencers",
+  "users_collection": "users",
+  "influencer_list_url": "https://raw.githubusercontent.com/acknowledge/swiss-twitter-accounts/master/",
+  "influencer_list_names": ["newspapers", "personalities", "political-parties", "politicians", "radios", "sports-teams", "televisions"],
+  "collect_user_fields": ["screen_name", "description", "friends_count", "followers_count", "statuses_count", "id",
+                          "name", "lang", "created_at", "url", "verified", "geo_enabled"],
+  "user_fields_in_graph": ["screen_name", "name", "lang", "id", "type"]
+}
